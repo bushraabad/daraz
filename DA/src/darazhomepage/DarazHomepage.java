@@ -7,6 +7,7 @@ import org.openqa.selenium.WebElement;
 public class DarazHomepage {
 	
 	private static WebElement element = null;
+	public static Object login;
 	
 	public static WebElement login(WebDriver driver){
 		

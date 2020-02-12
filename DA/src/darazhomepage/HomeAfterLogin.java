@@ -10,7 +10,8 @@ public class HomeAfterLogin {
 	
 	public static WebElement searchbar(WebDriver driver){
 		
-		element = driver.findElement(By.xpath("/html/body/div[1]/div/div/div[1]/div/div/div[2]/div/div[2]/form/div/div[1]/input[1]"));
+		//element = driver.findElement(By.xpath("/html/body/div[1]/div/div/div[1]/div/div/div[2]/div/div[2]/form/div/div[1]/input[1]"));
+		element = driver.findElement(By.id("q"));
 		return element;
 	}
 		public static WebElement searchbtn(WebDriver driver){
